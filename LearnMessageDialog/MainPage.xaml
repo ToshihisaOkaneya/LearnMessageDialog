@@ -9,6 +9,11 @@
     Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
 
     <Grid>
-
+        <StackPanel>
+            <Button Content="Show MessageDialog" Click="ShowMessageDialog_Click"/>
+            <Button Content="Show ContentDialog" Click="ShowContentDialog_Click"/>
+            <Button Content="Show MessageDialog with question" Click="ShowMessageDialogWithQuestion_Click"/>
+            <Button Content="Show ContentDialog with question" Click="ShowContentDialogWithQuestion_Click"/>
+        </StackPanel>
     </Grid>
 </Page>
